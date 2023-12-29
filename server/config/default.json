@@ -1,0 +1,6 @@
+{
+    "serverPort": 5000,
+    "dbUrl": "mongodb+srv://***:***@cluster0.***.mongodb.net/***?retryWrites=true&w=majority",
+    "secretKey": "mern-secret-key",
+    "filePath": "path\\to\\files"
+}

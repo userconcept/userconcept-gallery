@@ -1,0 +1,24 @@
+{
+  "name": "userconcept-gallery-server",
+  "version": "0.1.0",
+  "description": "Fullstack image gallery server",
+  "author": "userconcept <userconcept@yandex.ru> (https://userconcept.ru)",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
